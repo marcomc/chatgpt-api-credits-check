@@ -1,29 +1,38 @@
 # ChatGP API Credits Check
 
+This script was created following the instructions provided in the OpenAI community forum.
+You can find the original discussion and detailed steps at this [link](https://community.openai.com/t/get-the-remaining-credits-via-the-api/18827/13).
+
 ## How to Execute the Script
 
 To check your OpenAI API credits using the `check_openai_credits.sh` script, follow these steps:
 
 1. Ensure you have `curl` and `jq` installed on your system. You can install them using the following commands:
    - For Debian/Ubuntu-based systems:
+
      ```sh
      sudo apt-get update
      sudo apt-get install curl jq
      ```
+
    - For macOS:
+
      ```sh
      brew install curl jq
      ```
+
    - For other systems, refer to your package manager's documentation.
 
 2. Download the `check_openai_credits.sh` script to your local machine.
 
 3. Make the script executable by running the following command:
+
    ```sh
    chmod +x check_openai_credits.sh
    ```
 
 4. Execute the script by running:
+
    ```sh
    ./check_openai_credits.sh
    ```
